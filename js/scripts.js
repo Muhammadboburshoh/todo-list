@@ -26,10 +26,9 @@ elTodoForum.addEventListener("submit", function(evt) {
 
   for(var todo of todoList) {
     var todoListItem = document.createElement("LI");
-    elTodoList.appendChild(todoListItem);
     todoListItem.classList.add("list-group-item", "bg-success")
     todoListItem.textContent = todo;
-    console.log(todoList);
+    elTodoList.appendChild(todoListItem);
   }
 
   elTodoInput.value = "";
