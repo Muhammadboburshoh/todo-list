@@ -32,10 +32,7 @@ elTodoForum.addEventListener("submit", function(evt) {
     console.log(todoList);
   }
 
-
   elTodoInput.value = "";
   elTodoInput.focus();
-
-  // console.log(todoList);
 })
 
